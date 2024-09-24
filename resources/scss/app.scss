@@ -1,1 +1,16 @@
 @import '~bootstrap/scss/bootstrap';
+
+
+header {
+
+    .fs-10 {
+        font-size: 12px;
+    }
+
+    ul {
+        li {
+            margin: 0 10px;
+        }
+    }
+
+}
