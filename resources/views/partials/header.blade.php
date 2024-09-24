@@ -22,7 +22,7 @@
                 <div class="col-12 d-flex justify-content-between align-items-center">
                     <img src="{{Vite::asset('../resources/img/dc-logo.png')}}" alt="dc-logo">
     
-                    <ul class="list-unstyled d-flex align-items-center fw-semibold">
+                    <ul class="list-unstyled d-flex align-items-center fw-bold">
     
                         <li>CHARACTERS</li>
                         <li>COMICS</li>
@@ -34,7 +34,7 @@
                         <li>FANS</li>
                         <li>NEWS</li>
                         <li><div class="dropdown p-0 m-0">
-                            <button class="btn btn-white dropdown-toggle fw-semibold" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <button class="btn btn-white dropdown-toggle fw-bold" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                               SHOP
                             </button>
                             <ul class="dropdown-menu">

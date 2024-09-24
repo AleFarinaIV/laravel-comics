@@ -9,7 +9,7 @@ header {
 
     ul {
         li {
-            margin: 0 10px;
+            margin: 0 14px;
         }
     }
 
@@ -59,6 +59,31 @@ main {
             font-weight: bold;
             padding: 9px 54px;
             background-color: #0C7CEC;
+        }
+    }
+
+    #bottom_main {
+
+        #main_navbar {
+            min-height: 170px;
+            overflow-x: hidden;
+
+            p {
+                margin-left: 15px;
+                font-size: 14px;
+                margin-bottom: 0;
+            }
+
+            a {
+                color: white;
+                text-decoration: none;
+                margin: 0 50px;
+            }
+        
+            img {
+              width: 50px;
+              margin-right: 10px;
+            }
         }
     }
 }

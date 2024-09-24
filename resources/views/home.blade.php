@@ -28,5 +28,24 @@
 
     </section>
 
-    <section id="bottom_main"></section>
+    <section id="bottom_main">
+
+        <div id="main_navbar" class="container-full bg-primary">
+            <div class="d-flex justify-content-center align-items-center pt-5">
+
+                @foreach($main_navbar as $item)
+
+                    <a href="{{ $item['url'] }}">
+                        <div id="logo_img_container" class="d-flex justify-content-center align-items-center">
+                          <img src="{{ Vite::asset($item['logo']) }}" alt="{{ $item['text'] }}">
+                          <p class="m-0">{{ $item['text'] }}</p>
+                        </div>
+                    </a>
+
+                @endforeach
+
+            </div>
+        </div>
+
+    </section>
 @endsection
