@@ -138,5 +138,140 @@ return [
             'text' => 'DC POWER VISA',
             'url' => '#'
         ],
-    ]
+    ],
+
+    'dc_comics' => [
+        [
+            'label' => 'Characters',
+            'url' => '#',
+        ],
+        [
+            'label' => 'Comics',
+            'url' => '#',
+        ],
+        [
+            'label' => 'Movies',
+            'url' => '#',
+        ],
+        [
+            'label' => 'TV',
+            'url' => '#',
+        ],
+        [
+            'label' => 'Games',
+            'url' => '#',
+        ],
+        [
+            'label' => 'Videos',
+            'url' => '#',
+        ],
+        [
+            'label' => 'News',
+            'url' => '#',
+        ],
+    ],
+
+    'shop_section' => [
+        [
+            'label' => 'Shop DC',
+            'url' => '#'
+        ],
+        [
+            'label' => 'Collectibles',
+            'url' => '#'
+        ],
+    ],
+
+    'dc_section' => [
+        [
+            'label' => 'Thermes Of Use',
+            'url' => '#'
+        ],
+        [
+            'label' => 'Privacy policy (New)',
+            'url' => '#'
+        ],
+        [
+            'label' => 'Ad Choices',
+            'url' => '#'
+        ],
+        [
+            'label' => 'Advertising',
+            'url' => '#'
+        ],
+        [
+            'label' => 'Jobs',
+            'url' => '#'
+        ],
+        [
+            'label' => 'Subscriptions',
+            'url' => '#'
+        ],
+        [
+            'label' => 'Talent Workshops',
+            'url' => '#'
+        ],
+        [
+            'label' => 'CPSC Certificates',
+            'url' => '#'
+        ],
+        [
+            'label' => 'Ratings',
+            'url' => '#'
+        ],
+        [
+            'label' => 'Shop Help',
+            'url' => '#'
+        ],
+        [
+            'label' => 'Contact Us',
+            'url' => '#'
+        ],
+    ],
+
+    'sites_section' => [
+        [
+            'label' => 'DC',
+            'url' => '#'
+        ],
+        [
+            'label' => 'MAD Magazine',
+            'url' => '#'
+        ],
+        [
+            'label' => 'DC Kids',
+            'url' => '#'
+        ],
+        [
+            'label' => 'DC Universe',
+            'url' => '#'
+        ],
+        [
+            'label' => 'CD Power Visa',
+            'url' => '#'
+        ],
+    ],
+
+    'social_media' => [
+        [ 
+            'icon_url' => '../resources/img/footer-facebook.png', 
+            'url' => '#'
+        ],
+        [ 
+            'icon_url' => '../resources/img/footer-twitter.png',  
+            'url' => '#'
+        ],
+        [ 
+           'icon_url' => '../resources/img/footer-youtube.png',  
+            'url' => '#'
+        ],
+        [ 
+            'icon_url' => '../resources/img/footer-pinterest.png', 
+            'url' => '#'
+        ],
+        [
+            'icon_url' => '../resources/img/footer-periscope.png',
+            'url' => '#'
+        ]
+    ],
 ];

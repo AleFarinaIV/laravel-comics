@@ -4,8 +4,8 @@
         <div class="container">
             <div class="row">
                 <div class="offset-8 col-4 d-flex align-items-center text-white py-1">
-                    <span class="fw-semibold">DC POWER<span>&#8480;</span> VISA</span><i class="bi bi-r-circle fs-10"></i>
-                    <select class="btn btn-primary fw-semibold ms-4" name="other_sites" id="other-sites">
+                    <span class="fw-semibold fs-10">DC POWER<span>&#8480;</span> VISA</span><i class="bi bi-r-circle fs-10"></i>
+                    <select class="btn btn-primary fw-semibold ms-4 fs-10 text-start" name="other_sites" id="other-sites">
                         <option value="1" selected>ADDITIONAL DC SITES</option>
                         <option value="">Canada</option>
                         <option value="3">UK</option>
@@ -17,12 +17,12 @@
     </section>
 
     <section id="bottom_header">
-        <div class="container p-3">
+        <div class="container py-2">
             <div class="row">
                 <div class="col-12 d-flex justify-content-between align-items-center">
                     <img src="{{Vite::asset('../resources/img/dc-logo.png')}}" alt="dc-logo">
     
-                    <ul class="list-unstyled d-flex align-items-center fw-bold">
+                    <ul class="list-unstyled d-flex align-items-center fw-bold m-0">
     
                         <li>CHARACTERS</li>
                         <li>COMICS</li>
@@ -46,7 +46,7 @@
                         </li>
                     </ul>
 
-                    <div class=" mb-3 border-bottom border-primary border-2">
+                    <div class="border-bottom border-primary border-2">
                         <input type="text" class="text-dark fw-semibold border-0 text-end" placeholder="Search" aria-label="Username" aria-describedby="basic-addon1">
                         <span class="fw-bold" id="basic-addon1"><i class="bi bi-search"></i></span>
                     </div>
