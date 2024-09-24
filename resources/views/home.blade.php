@@ -4,10 +4,15 @@
     <section id="top_main"></section>
 
     <section id="center_main" class="bg-dark">
+
+        <div id="series_label" class="text-center">
+            <P class="mb-4">CURRENT SERIES</P>
+        </div>
+
         <div class="container">
-            <div class="row">
+            <div class="row pt-5">
                 @foreach ($comics_array as $item)
-                    <div class="col-2 d-flex flex-column g-3 py-4">
+                    <div class="col-2 d-flex flex-column py-3">
                         <div class="resize">
                             <img src="{{ $item['thumb'] }}" alt="{{ $item['series'] }} cover">
                         </div>
@@ -15,6 +20,10 @@
                     </div>
                 @endforeach
             </div>
+        </div>
+
+        <div class="container text-center">
+            <button class="mb-4">LOAD MORE</button>
         </div>
 
     </section>
